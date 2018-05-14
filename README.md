@@ -1,6 +1,6 @@
 # Anchour Test Instructions
 
-We made this test to assess as much of your general and WordPress specific coding skills as possible in the shortest amount of time possible. So hopefully this doesn't take up too much of your time!
+We made this test to assess as much of your general and WordPress-specific coding skills as possible in the shortest amount of time possible. So hopefully this doesn't take up too much of your time!
 
 ## General tasks:
 
@@ -24,8 +24,8 @@ We made this test to assess as much of your general and WordPress specific codin
 
 ## Before photos:
 
-* ![Desktop](screenshots/before-desktop.png)
-* ![Mobile](screenshots/before-mobile.png)
+* [Desktop](screenshots/before-desktop.png)
+* [Mobile](screenshots/before-mobile.png)
 
 ## After photos:
 
