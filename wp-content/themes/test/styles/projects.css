@@ -3,11 +3,13 @@
 }
 
 .project-wrap .column {
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 33.33%;
 }
 
 .project-panel-inner {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.75);
   color: white;
   padding: 15px;
   height: 250px;

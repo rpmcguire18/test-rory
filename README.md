@@ -29,5 +29,9 @@ We made this test to assess as much of your general and WordPress-specific codin
 
 ## After photos:
 
-* Desktop
-* Mobile
+* [Desktop](screenshots/after-desktop.png)
+* [Mobile](screenshots/after-mobile.png)
+
+## One last note:
+
+**Please** contact us with any questions. We'd like to talk with you throughout the process so we can assess your communication skills as well ;) Our emails are matt@anchour.com and seth@anchour.com.
