@@ -1,0 +1,8 @@
+.one-column-text {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.one-column-text .container {
+  max-width: 660px;
+}

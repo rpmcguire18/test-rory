@@ -10,3 +10,7 @@
 	License: MIT
 	License URI: http://opensource.org/licenses/mit-license.php
 */
+
+@import url("styles/flexible-layout.css");
+@import url("styles/one-column-text.css");
+@import url("styles/two-column-text.css");
