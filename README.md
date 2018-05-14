@@ -5,7 +5,7 @@ We made this test to assess as much of your general and WordPress-specific codin
 ## General tasks:
 
 * Clone this repository to your computer
-* Checkout a new local branch called ```develop```
+* Checkout the ```develop``` branch
 * Get the project running locally via MAMP or whatever you're comfortable with
 * Export the sample page, projects, media files, and ACF field groups from the ```{your first name}```-test.anchour.net version of the site
 * Import all content from last bullet to your local version of the project
