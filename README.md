@@ -8,7 +8,7 @@ We made this test to assess as much of your general and WordPress-specific codin
 * Checkout the ```develop``` branch
 * Get the project running locally via MAMP or whatever you're comfortable with
 * Import all content from [this file](https://www.dropbox.com/s/j9e4775njzujfny/backup.sql?dl=0) via phpMyAdmin or whatever you're comfortable with
-* Make the changes detailed below
+* Make the **"test tasks"** changes detailed below
 * Push your work to the remote ```develop``` branch intermittently
 * Check your changes at ```{your first name}```-test.anchour.net
 * Let us know whenever you're finished!
