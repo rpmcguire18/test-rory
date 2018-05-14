@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 
 	<main role="main">
-		<!-- section -->
-		<section>
-
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
@@ -12,6 +9,8 @@
 				<?php the_content(); ?>
 
 				<?php include 'templates/modules.php'; ?>
+
+				<?php include 'templates/projects.php'; ?>
 
 			</article>
 			<!-- /article -->
@@ -29,9 +28,6 @@
 			<!-- /article -->
 
 		<?php endif; ?>
-
-		</section>
-		<!-- /section -->
 	</main>
 
 <?php get_footer(); ?>

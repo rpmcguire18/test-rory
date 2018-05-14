@@ -6,13 +6,13 @@
       $slug = str_replace('_', '-', get_row_layout());
     ?>
 
-      <div class="flexible-layout <?=$slug?>">
+      <section class="<?=$slug?>">
         <div class="container">
           <div class="row">
             <?php include 'modules/' . $slug . '.php'; ?>
           </div>
         </div>
-      </div>
+      </section>
 
     <?php endwhile; ?>
   </div><!-- /flexible-layout-wrapper -->
