@@ -1,2 +1,5 @@
 .htaccess
 wp-config.php
+.env
+wp-content/uploads/
+*.sql
