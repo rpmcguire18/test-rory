@@ -19,8 +19,8 @@ We made this test to assess as much of your general and WordPress-specific codin
 * Make two column layout and project panels stack on mobile-sized screens
 * Add background images to projects without using Advanced Custom Fields
 * Add excerpt to existing projects without using Advanced Custom Fields
-* **Bonus points** for making excerpt only show up on hover
-* **Extra bonus points** for replacing the CSS with SASS (not necessary by any means)
+* **BONUS POINTS** for making excerpt only show up on hover
+* **SUPER BONUS POINTS** for replacing the CSS with SASS (not necessary by any means)
 
 ## Before photos:
 
