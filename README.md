@@ -7,10 +7,10 @@ We made this test to assess as much of your general and WordPress-specific codin
 * Clone this repository to your computer
 * Checkout the ```develop``` branch
 * Get the project running locally via MAMP or whatever you're comfortable with
-* Export the sample page, projects, media files, and ACF field groups from the ```{your first name}```-test.anchour.net version of the site
-* Import all content from last bullet to your local version of the project
+* Import all content from [this file](https://www.dropbox.com/s/j9e4775njzujfny/backup.sql?dl=0) via phpMyAdmin or whatever you're comfortable with
 * Make the changes detailed below
 * Push your work to the remote ```develop``` branch intermittently
+* Check your changes at ```{your first name}```-test.anchour.net
 * Let us know whenever you're finished!
 
 ## Test tasks:
@@ -34,4 +34,4 @@ We made this test to assess as much of your general and WordPress-specific codin
 
 ## One last note:
 
-**Please** contact us with any questions. We'd like to talk with you throughout the process so we can assess your communication skills as well ;) Our emails are matt@anchour.com and seth@anchour.com.
+**Please** contact us with any questions. We'd like to talk with you throughout the process so we can assess your communication skills as well. Our emails are matt@anchour.com and seth@anchour.com.
