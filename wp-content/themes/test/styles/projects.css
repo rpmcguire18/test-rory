@@ -17,9 +17,16 @@
 }
 
 @media (min-width: 768px){
-  	.project-excerpt{
-  		display: none;
+    .project-excerpt{
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
   	}
+
+    .project-panel-inner:hover .project-excerpt{
+        visibility: visible;
+        opacity: 1;
+    }
 	
 
 }
