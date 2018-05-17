@@ -35,4 +35,18 @@ add_action( 'wp_enqueue_scripts', 'html5blank_styles' );
 // Import Project custom post type
 require_once('post-types/project.php');
 
+function custom_excerpt_length( $length ) {
+    return 19;
+}
+
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+// Changing excerpt more
+function new_excerpt_more($more) {
+  global $post;
+  remove_filter('excerpt_more', 'new_excerpt_more'); 
+  return '';
+}
+add_filter('excerpt_more','new_excerpt_more',11);
+
 ?>
