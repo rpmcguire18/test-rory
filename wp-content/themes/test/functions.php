@@ -32,6 +32,13 @@ function html5blank_styles()
 add_action( 'wp_enqueue_scripts', 'html5blank_header_scripts' );
 add_action( 'wp_enqueue_scripts', 'html5blank_styles' );
 
+//add a class to the excerpts p element
+
+add_filter ("the_excerpt", "excerpt_add_class");
+
+function excerpt_add_class($excerpt){
+    return str_replace('<p', '<p class="project-excerpt"', $excerpt);
+}
 
 // Import Project custom post type
 require_once('post-types/project.php');
