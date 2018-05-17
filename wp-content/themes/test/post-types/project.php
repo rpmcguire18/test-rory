@@ -71,3 +71,7 @@ function project_updated_messages( $messages ) {
 	return $messages;
 }
 add_filter( 'post_updated_messages', 'project_updated_messages' );
+
+add_post_type_support( 'project', 'excerpt' );
+
+

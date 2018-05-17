@@ -15,3 +15,13 @@
   padding: 15px;
   height: 250px;
 }
+
+@media (min-width: 768px){
+  	.project-excerpt{
+  		display: none;
+  	}
+	
+
+}
+
+
