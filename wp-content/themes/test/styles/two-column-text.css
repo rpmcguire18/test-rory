@@ -1,3 +1,11 @@
 .two-column-text .column {
-  width: 50%;
+  width: 90%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px){
+  	.two-column-text .column {
+  		width: 50%;
+
+	}
 }
