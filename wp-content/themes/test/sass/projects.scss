@@ -1,0 +1,19 @@
+.project-wrap {
+  background-color: $light-gray;
+}
+
+.project-wrap{
+
+  .column {
+    padding: 15px 15px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.project-panel-inner {
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 15px;
+  height: 250px;
+}

@@ -1,0 +1,123 @@
+/*
+	Theme Name: New Hire Test
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Author: Rory McGuire
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+/* line 6, sass/global.scss */
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* line 11, sass/global.scss */
+section {
+  padding: 30px 0px;
+}
+
+/* line 15, sass/global.scss */
+.container {
+  max-width: 960px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+
+/* line 21, sass/global.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 0px -15px;
+}
+
+/* line 27, sass/global.scss */
+.column {
+  padding: 0px 15px;
+}
+
+/* line 2, sass/one-column-text.scss */
+.one-column-text {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+/* line 8, sass/one-column-text.scss */
+.one-column-text .container {
+  max-width: 660px;
+}
+/* line 12, sass/one-column-text.scss */
+.one-column-text p {
+  margin-bottom: 30px;
+}
+
+/* line 17, sass/one-column-text.scss */
+.primary-button {
+  background-color: #808080;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 20px 0px 10px;
+}
+
+/* line 30, sass/one-column-text.scss */
+.primary-button:hover {
+  background-color: #B2B2B2;
+}
+
+/* line 2, sass/two-column-text.scss */
+.two-column-text .column {
+  width: 90%;
+}
+
+/* line 1, sass/projects.scss */
+.project-wrap {
+  background-color: lightgrey;
+}
+
+/* line 7, sass/projects.scss */
+.project-wrap .column {
+  padding: 15px 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 14, sass/projects.scss */
+.project-panel-inner {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 15px;
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  /* line 2, sass/tablet-styles.scss */
+  .row {
+    flex-direction: row;
+  }
+
+  /* line 6, sass/tablet-styles.scss */
+  .project-excerpt {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+
+  /* line 12, sass/tablet-styles.scss */
+  .project-panel-inner:hover .project-excerpt {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* line 18, sass/tablet-styles.scss */
+  .two-column-text .column {
+    width: 50%;
+  }
+}

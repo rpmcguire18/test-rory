@@ -1,0 +1,23 @@
+@media (min-width: $breakpoint-tablet){
+  .row{
+    flex-direction: row;
+  }
+
+  .project-excerpt{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+
+  .project-panel-inner:hover .project-excerpt{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .two-column-text{
+    .column {
+      width: 50%;
+    }
+  }
+	
+}

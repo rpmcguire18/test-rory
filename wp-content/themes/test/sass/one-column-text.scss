@@ -1,0 +1,32 @@
+
+.one-column-text{
+	background-color: $light-gray;
+	text-align: center;
+}
+
+.one-column-text{
+	.container{
+		max-width: 660px;
+	}
+
+	p{
+		margin-bottom: 30px;
+	}
+}
+
+.primary-button{
+	background-color: $dark-gray;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 20px 0px 10px;
+}
+
+.primary-button:hover{
+	background-color: #B2B2B2;
+}
